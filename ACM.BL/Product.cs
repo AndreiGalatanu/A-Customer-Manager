@@ -34,14 +34,5 @@ namespace ACM.BL
             return isValid;
         }
 
-        public Customer Retrive(int productID)
-        {
-            return new Customer();
-        }
-
-        public bool Save()
-        {
-            return true;
-        }
     }
 }
