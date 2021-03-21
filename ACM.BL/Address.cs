@@ -24,10 +24,10 @@ namespace ACM.BL
         public string City { get; set; }
         public string StateProvince { get; set; }
 
-        public long? PostalCode { get; set; }
+        public string PostalCode { get; set; }
         public string Country { get; set; }
 
-        public string AdressType { get; set; }
+        public int AdressType { get; set; }
 
         public bool Validate()
         {

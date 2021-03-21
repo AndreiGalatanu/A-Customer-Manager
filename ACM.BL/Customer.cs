@@ -16,8 +16,10 @@ namespace ACM.BL
         public Customer(int customerId)
         {
             CustomerId = customerId;
+            AddressList = new List<Address>();
         }
         public int CustomerId { get; private set; }
+        public List<Address> AddressList { get; set; }
         public string EmailAddress { get; set; }
         public string FirstName { get; set; }
         public string FullName
@@ -48,7 +50,6 @@ namespace ACM.BL
                 _lastName = value;
             }
         }
-
 
 
         public static int InstanceCount { get; set; }
